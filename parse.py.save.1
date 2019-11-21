@@ -1,0 +1,80 @@
+import pandas as pd
+bdf=pd.read_csv('DRL_dataset_200.csv') #This will be predefined in the user input any csv
+
+
+
+def inputs(bdf,i):
+  s=(bdf.iloc[i]['ttxt'])
+  fs= open("temp.txt","w+")
+  fs.write(s)
+  fs=open('temp.txt',"r+")
+  rd=fs.read()
+  cleaned=clean(rd)
+  return cleaned
+  #text_file = open("sample.txt", "wt")
+  #n = text_file.write(s)
+
+
+def clean(btxt):    
+    import re, string
+    #txt= open("uH3h7NAk.txt", "r+")
+    #txt= open(fname, "r+")
+    #txt=txt.read()#Reading
+    txt=btxt
+    print(txt)
+    txt=str(txt.encode(encoding = 'UTF-8',errors = 'strict')) #UTF-8 Encoding
+    clean = re.sub(r"[0-9,.;@#?/&%"",(),[],!&$]+\ *", " ", txt.replace('b',''))  #Removes unncessary stuff for word vectors
+    print(clean)
+    s=clean
+    exclude = set(string.punctuation)
+    table = str.maketrans("","")
+    regex = re.compile('[%s]' % re.escape(string.punctuation)) #Punctuations
+    text= regex.sub('', s)
+    import nltk
+    #nltk.download('stopwords')
+    from nltk.corpus import stopwords  #Stop Words influencing the game
+    cachedStopWords = stopwords.words("english")
+    text = '  '.join([word for word in text.split() if word not in cachedStopWords]).lower()
+    return text
+
+
+
+#Sends the dataframe here and parses for each documnet contained in iloc[0,1,2....n]
+for i in range(len(bdf)):
+  res=inputs(bdf,i)
+  print(res)
+
+
+fs.read()
+
+
+type(df.columns[2])
+
+l=[]
+import json
+ff=json.loads(df.columns[1]+"}")
+print(ff)
+
+f = open("7rgX5DBb.txt", "r+")
+print(f.read())
+
+import csv
+
+with open('uH3h7NAk.txt', 'r') as in_file:
+    stripped = (line.strip() for line in in_file)
+    lines = (line.split(",") for line in stripped if line)
+    with open('uH3h7NAk.csv', 'w') as out_file:
+        writer = csv.writer(out_file)
+        writer.writerow(('title', 'intro'))
+        writer.writerows(lines)
+
+
+import pandas as pd
+df=pd.read_csv('uH3h7NAk.csv')
+df
+with open('uH3h7NAk.txt', "w") as my_output_file:
+    with open('uH3h7NAk.csv', "r") as my_input_file:
+        [ my_output_file.write(" ".join(row)+'\n') for row in csv.reader(my_input_file)]
+    my_output_file.close()txt=open('uH3h7NAk.txt')  #CSV file se text yaha ayega
+txt=txt.read()
+print(txt)
