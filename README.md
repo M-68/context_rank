@@ -1,35 +1,30 @@
 # SEMANTYC
 
-#PROJECT SUBISSION FOR INTERNATION INSTITUTE OF INFORMATION TECHNOLOGY MEGATHON 2019
+## Project Submission for INTERNATIONAL INSTITUTE OF INFORMATION TECHNOLOGY(IIIT-H) MEGATHON 2019
 
 
 SEMANTYC
 
-SEMANTYC IS A CONTEXTUAL MOBILE SEARCH ENGINE THAT IS USER/ "PEOPL" CENTRIC AND RETURNS RESULTS TO QUERIES WHICH IS RELEVENT AND PERSONALIZED TO THE USER AND IS BASED ON THE MEANING OF THE QUERY OF THE USER RATHER THAN THE KEYWORDS IN THE QUERY.
+Semantyc is a contextual mobile search engine that is user/ "People" centric and returns results to queries which is relevent and personalized to the user and is based on the meaning of the query of the user rather than the keywords in the query.
 
 
 
-ON TODAYS WEB INFORMATION IS DISTRIBUTED ACROSS VARIOUS WEBSITES/PLATFORMS AND IS AVAILABLE IN VARIOUS FOMS OF MEDIA WHICH FORCES ANY USER TO SURF MLTIPLE WEBSITES AND USE VARIOUS SERVICES TO ACCOMPLISH A CERTAIN TASK OR GET RELEANT INFORMATION ON A CERTAIN QUERY;TODAYS TRADITIONAL SEARCH IS DRIVEN BY ADVERTISEMENT ND SEO PROTOCOLS RATHER THAN "PEOPLE".
+On todays web information is distributed across various websites/platforms and is available in various foms of media which forces any user to surf mltiple websites and use various services to accomplish a certain task or get releant information on a certain query;todays traditional search is driven by advertisement nd seo protocols rather than "People".
 
 
 
-MOVING FURTHUR DOWN THE PROBLEM EVEN AFTER THE USER IS DIRECTED TOWARDS THE RELEVANT WEBSITE; IT IS ALMOST ALWAYS THE CASE THAT THE WEBSITE PROVIDES A GIGANTIC AMOUNT OF INFORMATION RATHER THAN THE SPECIFIC QUERY,OR THE SUMMARY OF THE RELEVANT INFORMATION THAT THE USER IS LOOKING TO FIND THE ANSWER FOR! THS REQUIRING THE USER TO FURTHUR DIG INTO THE PILE OF INFORMATION AND OTHER HYPERLINKS/MEDIA TO FINDTHE DESIRED OUTCOME.
+Moving furthur down the problem even after the user is directed towards the relevant website; it is almost always the case that the website provides a gigantic amount of information rather than the specific query,or the summary of the relevant information that the user is looking to find the answer for! Ths requiring the user to furthur dig into the pile of information and other hyperlinks/media to findthe desired outcome.
 
 
 
-SEMANTIC IS A MOBILE SEMANTIC SEARCH ENGINE WHICH IS "USER-CENTRIC" AND OPTIMISES ITSELF TO LOOK FOR THE RESOURCS/MEDIA/SERVICES THAT THE USER IS LOOKING FOR BY TRYING TO EXTRACT THE CONTEXT/MEANING FROM THE QUERY USING MACHINE LEARNING,NATURAL LANGUAGE PROCESSING TECHNIQUES, AND RECOMMENDATION SYSTEMS AND COMBINING IT WITH THE INFORMATION EXTRACTED BY THE USERS PAST BEHAVIOUR TO RETURN THE BEST POSSIBLE RESULTS TO THE USER.
+It is "User-centric" and optimises itself to look for the resourcs/media/services that the user is looking for by trying to extract the context/meaning from the query using machine learning,natural language processing techniques, and recommendation systems and combining it with the information extracted by the users past behaviour to return the best possible results to the user.
 
 
 
-SEMANTYC INGESTS DATA FROM VARIOUS SOURCES AND COMPLES AND VISUALIZES THEM INONE UNIFIED INTERFACE SO THE DOES NOT HAVE TO OPEN ANOTHER "TAB" AND CAN CONTINUE WITH THE FLOW OF THE QUERY TRAVERSING THROUGH VARIOUS SOURSES OF DATA W/O LEAVING THE APP.ADDITIONALLY SEMANTYC ALSO CONNECTS THE USER WITH THE RELEANT SERVICES CORRESPONDING TO THE QUERY SO THAT THE USER CAN NOT ONLY VIEW BUT TAKE ACTION SUCH AS BUYING A TICKET FROM THE APP ITSELF USING RELEVANT SERVICES.
+
+The next power that semantyc provides the user is connecting th services that the users search for together as well,cross-referencing information seamlessly on the same interface the entire personalized search can further be saved and shared with other users to collaborrate on a certain task. The search feed can be made public for other users to view, take notes on the same.
 
 
-
-THE NEXT POWER THAT SEMANTYC PROVIDES THE USER IS CONNECTING TH SERVICES THAT THE USERS SEARCH FOR TOGETHER AS WELL,CROSS-REFERENCING INFORMATION SEAMLESSLY ON THE SAME INTERFACE THE ENTIRE PERSONALIZED SEARCH CAN FURTHER BE SAVED AND SHARED WITH OTHER USERS TO COLLABORRATE ON A CERTAIN TASK. THE SEARCH FEED CAN BE MADE PUBLIC FOR OTHER USERS TO VIEW, TAKE NOTES ON THE SAME.
-
-
-
-SEMANTIC IS AN INTELLIGENT LAER OVER THE WWW TO FIND THE BEST RESULT FOR THE USER'S QUERY.ONE OF THE VERY UNIQUE FACTOR OF SEMANTYC IS I ENVISION ITS FLUIDIC AND CONTINUOUS INTERFACE AND TO GET THINGS DONE IN A SINGLE GO, DUE TO ITS INTERCONNECTED NATURE
 
 
 
@@ -56,9 +51,9 @@ https://www.elastic.co/
 
 
 
-run _test1.py 
+**run _test1.py** 
 Has the pre-trained model along with the script.
-con-knrm.py  lsmod     mthzoo    nltk_data     parse.py       parse.py.save.1  run1.py       run_tests.py   run_tests1.py.save    run_tests1.py.save.2  temp.txt
-example.csv  matchzoo  my-model  node_modules  parse.py.save  run.py           run1.py.save  run_tests1.py  run_tests1.py.save.1  run_tets.py           vim
+*con-knrm.py  lsmod     mthzoo    nltk_data     parse.py       parse.py.save.1  run1.py       run_tests.py   run_tests1.py.save    run_tests1.py.save.2  temp.txt
+example.csv  matchzoo  my-model  node_modules  parse.py.save  run.py           run1.py.save  run_tests1.py  run_tests1.py.save.1  run_tets.py           vim*
 
-parse.py used to clean and accept the csv files
+**parse.py** used to clean and accept the csv files
