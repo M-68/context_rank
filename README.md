@@ -47,4 +47,3 @@ example.csv  matchzoo  my-model  node_modules  parse.py.save  run.py           r
 
 [6]https://www.elastic.co/
 
-https://ifttt.com/
