@@ -6,7 +6,7 @@
 
 Semantyc is a contextual mobile search engine that is user/ "People" centric and returns results to queries which is relevent and personalized to the user and is based on the meaning of the query of the user rather than the keywords in the query.
 
-Introduction
+### Introduction
 The role of search plays a big role in user lifecycle. It is intended to eliminate the time spent and gain insightful information from our given queries. A common example of this would be search Engines which are primarily built for this purpose . A query q entered by the user and a target T has to be identified. There are a variety of techniques employed for efficient and insightful search results. 
 Our problem statement was to find a method of finding similar research papers not domain specific , with the abstract being entered by the user. We employed a. DSSM model by Microsoft Research(MSR) that uses similarity matching to find the relevant documents  given a query with similar meaning on Wikipedia Question Answer Dataset.
 
@@ -49,11 +49,11 @@ Any of the above mentioned might work and yield good results as well but for lar
 “DSSM stands for Deep Structured Semantic Model, or more general, Deep Semantic Similarity Model”
 Developed by Microsoft Research(MSR) in 2015 ,the model aims to not only provide better performance on web related tasks. In short, character level coding(word hashing technique) within the word boundary which aims to reduce to vocabulary size and greatly help in model scalability when encountering large datasets and also prevent problems regarding misspellings.
 A tri-letter based word hashing technique has been used here as shown in the given figure.# indicates word  START and END
-A word such as cat  is broken down into #ca ,cat ,at# basically a character tri gram within the word boundary. This is then coded into the representation of cat vector. Now any new word such as at is generalized from the given at vector already created! They claim to have a collision of 22 words in a vocabulary size of 500K! Which is only 0.0044%(Mind blowing). 
-After this stage it is passed through a deep neural network to extract high level semantic features. The final stage is a vector of size 128 which is compared using the widely popular cosine similarity to create a Relevance metric ,similarity of an input and document.  In order to train the model we need to have some target to achieve or optimize! For this purpose we apply tanh to the cosine similarity scores .Tanh is used as the function in all hidden and output layers.
-This relevance score is then used to create a posterior probability P(D|Q) using softmax ie in simple terms we are trying to create a conditional probability score of finding an answer D given a query Q.Thus it is a discriminative model.[7]
+A word such as cat  is broken down into #ca ,cat ,at# basically a character tri gram within the word boundary. This is then coded into the representation of cat vector. Now any new word such as at is generalized from the given at vector already created! They claim to have a collision of 22 words in a vocabulary size of **500K**! Which is only **0.0044%**(Mind blowing). 
+After this stage it is passed through a deep neural network to extract high level semantic features. The final stage is a vector of size **128** which is compared using the widely popular cosine similarity to create a Relevance metric ,similarity of an input and document.  In order to train the model we need to have some target to achieve or optimize! For this purpose we apply tanh to the cosine similarity scores .Tanh is used as the function in all hidden and output layers.
+This relevance score is then used to create a posterior probability **P(D|Q)** using *softmax* ie in simple terms we are trying to create a conditional probability score of finding an answer **D** given a query **Q**.Thus it is a discriminative model.[7]
 Gamma value here is used as a smoothing factor .
- Finally we minimize the negative log likelihood using Stochastic Gradient Descent(SGD) . Each query is compared with various answers and thus we get our final answers after ranking by sorting  the most similar answers using the final posterior probability calculated !Phew!
+ Finally we minimize the *negative log likelihood* using Stochastic Gradient Descent(SGD) . Each query is compared with various answers and thus we get our final answers after ranking by sorting  the most similar answers using the final posterior probability calculated !Phew!
 Other alternatives to this model include Autoencoders by Hinton , Convolutional DSSM or CDSSM and yes everyone's favourite transformer models.
 
 
@@ -77,6 +77,12 @@ Other files and models include:
 example.csv  matchzoo  my-model  node_modules  parse.py.save  run.py           run1.py.save  run_tests1.py  run_tests1.py.save.1  run_tets.py           vim*
 
 **parse.py** used to clean and accept the csv files
+
+### Other Models
+- Universal Sentence Encoder
+- Sentence BERT
+- BERT Embeddings +DSSM
+- CUSTOM
 
 
 **References & Useful Links:**
