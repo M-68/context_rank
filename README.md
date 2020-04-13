@@ -1,4 +1,5 @@
 # SEMANTYC
+*Research project conducted for partial fulfilment for IIIT-H Megathon 2019*
 
 
 ### SEMANTYC
