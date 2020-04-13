@@ -78,6 +78,8 @@ example.csv  matchzoo  my-model  node_modules  parse.py.save  run.py           r
 
 **parse.py** used to clean and accept the csv files
 
+**Arxiv_api.py** used to extract and clean using API(still in progress
+
 ### Other Models
 - Universal Sentence Encoder
 - Sentence BERT
