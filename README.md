@@ -78,7 +78,7 @@ example.csv  matchzoo  my-model  node_modules  parse.py.save  run.py           r
 - Sentence BERT
 - BERT Embeddings +DSSM
 - AnnoyIndex
-- CUSTOM
+- CUSTOM:)
 
 
 **References & Useful Links:**
