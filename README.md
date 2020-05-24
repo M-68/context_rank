@@ -15,6 +15,7 @@ Semantyc is a contextual search based approach that is user/ "People" centric an
 ### Introduction
 The role of search plays a big role in user lifecycle. It is intended to eliminate the time spent and gain insightful information from our given queries. A common example of this would be search Engines which are primarily built for this purpose . A query q entered by the user and a target T has to be identified. There are a variety of techniques employed for efficient and insightful search results. 
 Our problem statement was to find a method of finding similar research papers not domain specific , with the abstract being entered by the user. We employed a. DSSM model by Microsoft Research(MSR) and SenteceBERT on CORD-19 copus that uses similarity matching to find the relevant documents  given a query with similar meaning on Wikipedia Question Answer Dataset.
+
 ![Cluster Distribution](https://github.com/UROP-X/semantyc/blob/master/Images/download%20(2).png)
 
 ### Data Cleaning 
@@ -57,16 +58,22 @@ These models are statistical in nature and based on the distributional hypothesi
 Word Vectors as well rely on representation of learned embeddings, this might cause issues for words outside of the given vocabulary(OOV). Moreover, word vectors dimensions are often very large as well and this may lead to problems in optimizing memory and significant impacts on training time.
 Any of the above mentioned might work and yield good results as well but for large scale tasks while analysing , ranking of web data might have problems.
 
+**Our proposed architechture**
+<div>
+ <img src="https://github.com/UROP-X/semantyc/blob/master/Images/Architechture.png" width="650" height="700"/>
+ </div>
+
 
 
 ### Getting Started
 
-**DSSM** -DSSM and other implementations on proprietery corpus
-**cord_19**- SentenceBERT implementation on CORD-19 corpus
-**WSL**- WSL dumps
-**Qualcomm Problem Statement** - Refer problem statement for motivation.
+- **DSSM** -DSSM and other implementations on proprietery corpus.
+- **cord_19**- SentenceBERT implementation on CORD-19 corpus.
+- **WSL**- WSL dumps.
+- **Qualcomm Problem Statement** - Refer problem statement for motivation.
 
 Quick description:
+
 **run _test1.py** test runs of models
 
 **parse.py** used to clean and accept the csv files
