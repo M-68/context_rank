@@ -59,9 +59,11 @@ Any of the above mentioned might work and yield good results as well but for lar
 
 
 
+#### Getting Started
 
-
-
+DSSM -DSSM and other implementations on proprietery corpus
+cord_19- SentenceBERT implementation on CORD-19 corpus
+WSL- WSL dumps
 **run _test1.py** 
 
 Has the pre-trained model along with the script.
