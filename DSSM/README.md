@@ -1,2 +1,9 @@
+
+# Info
+
+#### models 
 Following folder contains Matchzoo implementation of DSSM and CONV-KNRM on a given corpus.
-And other files assosciated with it for data cleaning.
+#### cleaning
+Following folder contains cleaning steps for a given corpus.
+#### test_runs
+Following folder contains test runs of above files
