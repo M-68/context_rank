@@ -1,4 +1,6 @@
 # SEMANTYC
+[![GitHub stars](https://img.shields.io/github/stars/UROP-X/context_rank)](https://github.com/UROP-X/context_rank/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/UROP-X/context_rank)](https://github.com/UROP-X/context_rank/network)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
