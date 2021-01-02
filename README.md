@@ -17,7 +17,7 @@ Semantyc is a contextual search based approach that is user/ "People" centric an
 
 ### Introduction
 The role of search plays a big role in user lifecycle. It is intended to eliminate the time spent and gain insightful information from our given queries. A common example of this would be search Engines which are primarily built for this purpose . A query q entered by the user and a target T has to be identified. There are a variety of techniques employed for efficient and insightful search results. 
-Our problem statement was to find a method of finding similar research papers not domain specific , with the abstract being entered by the user. We employed a. DSSM model by Microsoft Research(MSR) and SenteceBERT on CORD-19 copus that uses similarity matching to find the relevant documents  given a query with similar meaning on Wikipedia Question Answer Dataset.
+Our problem statement was to find a method of finding similar research papers not domain specific , with the abstract being entered by the user. We employed a. DSSM model by Microsoft Research(MSR) and SBERT on CORD-19 copus that uses similarity matching to find the relevant documents  given a query with similar meaning on Wikipedia Question Answer Dataset.
 
 ![Cluster Distribution](https://github.com/UROP-X/semantyc/blob/master/Images/download%20(2).png)
 
@@ -71,7 +71,7 @@ Any of the above mentioned might work and yield good results as well but for lar
 ### Getting Started
 
 - **DSSM** -DSSM and other implementations on proprietery corpus.
-- **cord_19**- SentenceBERT implementation on CORD-19 corpus.
+- **cord_19**- SBERT implementation on CORD-19 corpus.
 - **WSL**- WSL dumps.
 - **Qualcomm Problem Statement** - Refer problem statement for motivation.
 
@@ -85,7 +85,7 @@ Quick description:
 
 ### Other Approaches
 - Universal Sentence Encoder
-- Sentence BERT
+- SBERT
 - BERT Embeddings +DSSM
 - AnnoyIndex
 - CUSTOM:)
