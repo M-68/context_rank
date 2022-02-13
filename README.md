@@ -100,25 +100,25 @@ Quick description:
 
 [4] https://dl.acm.org/doi/abs/10.1145/775152.775250
 
-[5]https://scholar.google.com/scholar?hl=en&as_sdt=0,5&q=recommendationsystem&btnG=&oq=recommendation%20s
+[5] https://scholar.google.com/scholar?hl=en&as_sdt=0,5&q=recommendationsystem&btnG=&oq=recommendation%20s
 
-[6]https://www.elastic.co/
+[6] https://www.elastic.co/
 
 **Supplementary Material**
 
-[1]https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf
+[1] https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf
 
-[2]https://pathmind.com/wiki/bagofwords-tf-idf
+[2] https://pathmind.com/wiki/bagofwords-tf-idf
 
-[3]https://www.microsoft.com/en-us/research/publication/learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data/
+[3] https://www.microsoft.com/en-us/research/publication/learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data/
 
-[4]https://nlp.stanford.edu/IR-book/html/htmledition/latent-semantic-indexing-1.html
+[4] https://nlp.stanford.edu/IR-book/html/htmledition/latent-semantic-indexing-1.html
 
-[5]http://soda.swedish-ict.se/3941/1/sahlgren.distr-hypo.pdf
+[5] http://soda.swedish-ict.se/3941/1/sahlgren.distr-hypo.pdf
 
-[6]https://www.youtube.com/watch?v=QZ0DtNFdDko&t=3s
+[6 ]https://www.youtube.com/watch?v=QZ0DtNFdDko&t=3s
 
-[7]https://en.wikipedia.org/wiki/Generative_model#Relationships_between_models
+[7] https://en.wikipedia.org/wiki/Generative_model#Relationships_between_models
 
 
 
