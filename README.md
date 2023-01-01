@@ -71,7 +71,6 @@ Any of the above mentioned might work and yield good results as well but for lar
 
 - **DSSM** -DSSM and other implementations on proprietery corpus.
 - **cord_19**- Zero shot SBERT  on CORD-19 corpus.
-- **WSL**- WSL dumps.
 - **Qualcomm Problem Statement** - Refer problem statement for motivation.
 
 Quick description:
@@ -87,7 +86,6 @@ Quick description:
 - SBERT
 - BERT Embeddings +DSSM
 - AnnoyIndex
-- CUSTOM:)
 
 
 **References & Useful Links:**
