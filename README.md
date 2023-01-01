@@ -60,7 +60,7 @@ These models are statistical in nature and based on the distributional hypothesi
 Word Vectors as well rely on representation of learned embeddings, this might cause issues for words outside of the given vocabulary(OOV). Moreover, word vectors dimensions are often very large as well and this may lead to problems in optimizing memory and significant impacts on training time.
 Any of the above mentioned might work and yield good results as well but for large scale tasks while analysing , ranking of web data might have problems.
 
-**Our proposed architechture**
+**Our proposed 2-stage architechture**
 <div>
  <img src="https://github.com/UROP-X/semantyc/blob/master/Images/Architechture.png" width="650" height="700"/>
  </div>
@@ -70,7 +70,7 @@ Any of the above mentioned might work and yield good results as well but for lar
 ### Getting Started
 
 - **DSSM** -DSSM and other implementations on proprietery corpus.
-- **cord_19**- SBERT implementation on CORD-19 corpus.
+- **cord_19**- Zero shot SBERT  on CORD-19 corpus.
 - **WSL**- WSL dumps.
 - **Qualcomm Problem Statement** - Refer problem statement for motivation.
 
